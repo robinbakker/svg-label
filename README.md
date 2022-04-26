@@ -1,14 +1,16 @@
-## 🏷️ SVG label
+### 🏷️ SVG label
 
 This is a Cloudflare Worker project to get a simple customized SVG label that can be used in Markdown.
 
-You can setup your own worker at Cloudflare (currently 100,000 requests per day for free).
+You can setup your own worker at Cloudflare (currently 100,000 requests per day for free). You could use this project and use the [Cloudflare CLI (Wrangler)](https://developers.cloudflare.com/workers/cli-wrangler/) to publish.
 
-Pass the options via query string parameters, so you can use it like this;
+Pass the options as query string parameters, so you can use it like this;
 
 ```
-![label](https://[worker-name].[your-own-account].workers.dev/?text=label&bgcolor=00f&textcolor=fff)
+![labels](https://[worker-name].[your-own-account].workers.dev/?text=labels&bgcolor=00f&textcolor=fff)
 ```
+
+![labels](https://user-images.githubusercontent.com/11250019/165377440-d2190c57-aa09-47b2-81b1-3651616389a4.svg) ![are](https://user-images.githubusercontent.com/11250019/165377465-9bded31e-0f4c-4219-ba66-49d57e65db30.svg) ![cool](https://user-images.githubusercontent.com/11250019/165377479-45099960-b5f5-4ea6-a40e-24d3eac367f9.svg)
 
 #### Options
 
