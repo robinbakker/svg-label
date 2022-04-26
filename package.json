@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "svg-label",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker to get a customized SVG label",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wrangler preview --watch"
+  },
+  "author": "Robin Bakker",
+  "license": "MIT"
+}
